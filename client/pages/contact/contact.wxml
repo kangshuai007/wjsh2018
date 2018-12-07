@@ -1,0 +1,34 @@
+<!--pages/contact/contact.wxml-->
+<!-- <text>pages/contact/contact.wxml</text> -->
+<view class="container">
+
+  <view class="page-body">
+    <!-- <view class="page-section"> -->
+      <view class='tu_wen'>
+        <!-- <image class='img-d' src='/image/qrCode2.jpg'></image> -->
+        <!-- <image src=''></image> -->
+
+        <view class='left_right50'>
+            <text>吾匠，拥有多位书画名师组成的教学团队，课程采用提纲挈领法设置，让学员快速抓住学习的关键与要领，掌握其精髓。
+            </text>
+            <text class='zx'>添加老师微信，咨询课程……</text>
+            <text class='zx'>
+                范老师微信：</text><text selectable='true' class='red_text'>wjjy136 </text>
+
+            <text class='zx'>
+                李老师微信：</text><text selectable='true' class='red_text'>wjjy139 </text>
+        </view>
+      </view>
+
+      <view class="btn-area">
+        <!-- <button type="primary" bindtap="makePhoneCall" disabled="{{disabled}}">拨打</button> -->
+        <button type="primary" bindtap="makePhoneCall">联系我们</button>
+      </view>
+      <!-- <view>
+        <button class='getUserInfo' style='background-image:url(/image/sy/sy-gn2.jpg);' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo"></button>
+      </view> -->
+      
+    <!-- </view> -->
+  </view>
+</view>
+

@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "wux-grids": "/utils/grids/index",
+        "wux-grid": "/utils/grid/index",
+        "wux-gridi": "/utils/gridi/index"
+    }
+}

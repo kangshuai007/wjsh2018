@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "试听课程",
+    "usingComponents": {
+        "wux-checkbox-group": "/utils/checkbox-group/index",
+        "wux-checkbox": "/utils/checkbox/index"
+    }
+}

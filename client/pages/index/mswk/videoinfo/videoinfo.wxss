@@ -1,0 +1,17 @@
+/* pages/index/mswk/videoinfo/videoinfo.wxss */
+
+
+video{
+    width: 100vw;
+    height: 450rpx;
+}
+.titlt{
+    padding: 20rpx 0;
+    font-size:1rem;
+    border-bottom: 1rpx dashed cadetblue;
+}
+
+.info{
+    padding: 30rpx 20rpx;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,45 @@
+/* pages/contact/contact.wxss */
+
+text{
+  text-indent: 20rpx; 
+  text-align: left;
+}
+
+.page-body{
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    align-content:center;
+}
+
+.btn-area{
+    /* display: flex; */
+    width: 550rpx;
+    
+}
+
+.tu_wen{
+    display: flex;
+    width: 550rpx;
+}
+
+.getUserInfo{
+    /* background-image:url(/image/sy/sy-gn2.jpg); */
+    width: 200rpx;
+    height: 140rpx;
+    background-repeat: no-repeat
+}
+
+.img-d{
+    height: 720rpx;
+}
+.left_right50{
+    font-size: 1.2rem;
+}
+.zx{
+    font-weight: bold;
+}
+

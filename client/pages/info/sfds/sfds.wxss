@@ -1,0 +1,22 @@
+/* pages/info/mssk/mssk.wxss */
+
+.red_text{
+    font-size: 1.1rem;
+    color: red;
+    font-weight: bold;
+}
+.red_bold{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.ht_text{
+    width: 690rpx;
+    /* padding: 30rpx; */
+    text-align: center;
+    background-color: red;
+    color: #fff;
+}
+.img-msjs{
+    width: 690rpx;
+    height: 1100rpx;
+}

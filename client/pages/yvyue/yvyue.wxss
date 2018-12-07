@@ -1,0 +1,14 @@
+/* pages/index/yvyue/yvyue.wxss */
+@import "/utils/lib/weui.wxss";
+
+.container{
+    min-height: 0;
+}
+
+.yv-img{
+    display:block;
+    width:735rpx;
+    height:360rpx;
+    margin:0 auto;
+}
+

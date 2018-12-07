@@ -1,0 +1,109 @@
+<!--pages/index/ybsf/ybsf.wxml-->
+<!-- <text>pages/index/ybsf/ybsf.wxml</text> -->
+<view class="page">
+    <view>
+        <image class='img-t' src='http://www.wujiangjy.com/wjrb/index2_files/rb01.jpg'></image>
+    </view>
+
+    <!-- 学习案例 -->
+    <view class='left_right50 '>
+        <view class='top_bottom15'>
+            <text class='red_text'>名师在线授课，一对一指导点评，易学易懂，轻松入门学书法！</text>
+            <text>
+            吾匠名师网课，书法课程丰富，学习时间灵活！</text>
+            <text class='red_text'>课程先免费试听，再报名学习。
+        </text>
+            <text>添加老师微信： </text>
+            <text class='red_text'> wjjy139 </text>
+            <text> ，咨询课程。
+        </text>
+            <text class='red_text'>下面是比较典型的书法在线学习案例......</text>
+        </view>
+
+        <view>
+            <text class='red_bold'>张豫洁,书法在线学习中</text>
+            <view class='top_bottom15'>
+                <image class='img-d' src='http://www.wujiangjy.com/wjrb/index2_files/jf_02.jpg'></image>
+            </view>
+
+            <text class='red_bold'>潘晏清，书法在线学习中</text>
+            <view class='top_bottom15'>
+                <image class='img-d' src='http://www.wujiangjy.com/wjrb/index2_files/jf_04b.jpg'></image>
+            </view>
+
+            <text class='red_bold'>高玉斌，书法在线学习中</text>
+            <view class='top_bottom15'>
+                <image class='img-d' src='http://www.wujiangjy.com/wjrb/index2_files/jf_02a.jpg'></image>
+            </view>
+        </view>
+
+        <!-- 了解吾匠教育——名师网课 -->
+        <view>
+            <view class='ht_text top_bottom15'>
+                <text>了解吾匠教育——名师网课
+                </text>
+            </view>
+            <view>
+                <text class='red_text'>名师网课——名师介绍</text>
+                <view class='top_bottom15'>
+                    <image class='img-msjs' src='http://www.wujiangjy.com/wjrb/index2_files/rb15.jpg'></image>
+                </view>
+            </view>
+
+            <view>
+                <text class='red_text'>名师网课——学员习作</text>
+                <view class='top_bottom15'>
+                    <image class='img-d' src='http://www.wujiangjy.com/wjrb/index2_files/rb16.jpg'></image>
+                </view>
+                <view class='top_bottom15'>
+                    <image class='img-d' src='http://www.wujiangjy.com/wjrb/index2_files/rb14.jpg'></image>
+                </view>
+                <view class='top_bottom15'>
+                    <image class='img-d' src='http://www.wujiangjy.com/wjrb/index2_files/rb18.jpg'></image>
+                </view>
+                <view class='top_bottom15'>
+                    <image class='img-d' src='http://www.wujiangjy.com/wjrb/index2_files/yb02.jpg'></image>
+                </view>
+                <view class='top_bottom15'>
+                    <image class='img-d' src='http://www.wujiangjy.com/wjrb/index2_files/yb01.jpg'></image>
+                </view>
+            </view>
+
+            <view>
+                <text class='red_text'>名师网课——课程设置
+                </text>
+                <text class='red_bold'>[先试听，再报名学习]
+                </text>
+                <text>
+                书法零基础入门课；
+                书法基础《颜勤礼碑》楷书笔法精讲；
+                欧阳询《九成宫》笔法精讲；
+                楷书临帖与创作系列课；
+                赵孟頫《胆巴碑》笔法精讲；
+                隶书（张迁碑、曹全碑......）笔法精讲；
+                行书常用笔法与技巧（行书入门）；
+                米芾《蜀素帖》笔法精讲；
+                赵孟頫《洛神赋》笔法精讲；
+                怀仁集王羲之圣教序笔法精讲；
+                王羲之《兰亭序》笔法精讲；
+                行书临帖与创作转换；
+                硬笔书法楷书（规范字）精讲；
+                硬笔书法（灵飞经）笔法精讲；
+                硬笔书法（王铎）行书创作；
+                硬笔书法（王羲之兰亭序）笔法精讲......
+                </text>
+                <text class='jc'>  
+                    <text>添加老师微信： </text>
+                        <text class='red_text'> wjjy139 </text>
+                        <text> ，咨询课程。
+                    </text>
+                </text> 
+                <view class='top_bottom15' style='text-align: center;'>
+                    <text>版权所有：吾匠教育</text>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+</view>

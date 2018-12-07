@@ -1,0 +1,49 @@
+<!--pages/index/xckt/xckt.wxml-->
+<!-- <web-view src="http://www.wujiangjy.com/shouji/index.html"></web-view> -->
+<view class="page">
+    <view class='top_bottom15'>
+        <!-- <image class='img-t' src='/image/1w.jpg'></image> -->
+        <image class='img-t' src='http://www.wujiangjy.com/shouji/image/1w.jpg'></image>
+    </view>
+    <view class='left_right50'>
+        <text>名师授课，书画家夏天民教学团队亲临身教。教学经验丰富，指导能力强，学员零基础学习，快速入门提高。
+        </text>
+    </view>
+    <view class='left_right50'>
+        <image class='img-t' src='/image/xckt-ksl.jpg'></image>
+    </view>
+
+    <view>
+        <view class='left_right50 top_bottom15'>
+            <image class='img-x' src='/image/kc.png'></image>
+        </view>
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img' src='/image/xckt-990.jpg'></image>
+            </view>
+        </view>
+    </view>
+
+    <view style='padding-bottom:130rpx;'>
+        <view class='top_bottom15'>
+            <image class='img-x' src='http://www.wujiangjy.com/shouji/image/zp.jpg'></image>
+        </view>
+
+        <view>
+            <image class='img-d' src='/image/zuo_pin/mb.jpg'></image>
+            <image class='img-d' src='/image/zuo_pin/yb.jpg'></image>
+            <image class='img-d' src='/image/zuo_pin/gh.jpg'></image>
+            <image class='img-d' src='/image/zuo_pin/ms.jpg'></image>
+
+            <!-- <image class='img-d' src='http://www.wujiangjy.com/shouji/image/zp111.jpg'></image>
+            <image class='img-d' src='http://www.wujiangjy.com/shouji/image/zp2.jpg'></image>
+            <image class='img-d' src='http://www.wujiangjy.com/shouji/image/zp8.jpg'></image>
+            <image class='img-d' src='http://www.wujiangjy.com/shouji/image/zp91.jpg'></image>
+            <image class='img-d' src='http://www.wujiangjy.com/shouji/image/ms5.jpg'></image>
+            <image class='img-d' src='http://www.wujiangjy.com/shouji/image/ms7.jpg'></image> -->
+        </view>
+    </view>
+    <view class='bot' bindtap="tabDetails">
+        咨询老师
+    </view>
+</view>

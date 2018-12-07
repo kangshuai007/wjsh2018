@@ -1,0 +1,80 @@
+<!--pages/index/rbsf/rbsf.wxml-->
+<!-- <text>pages/index/rbsf/rbsf.wxml</text> -->
+<view class="page">
+    <view class='top_bottom15'>
+        <image class='img-t' src='/image/1a.jpg'></image>
+    </view>
+
+    <view>
+        <view class='left_right50 top_bottom15'>
+            <image class='img-x' src='/image/kc.png'></image>
+        </view>
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/rbsf-htc.jpg'></image>
+            </view>
+            <view>
+                <text>课程内容
+                      对书法文化、文房认知、书写姿势、基础笔画、唐楷、小楷等由浅入深的进行讲解和辅导学习，培养小朋友对书法的兴趣。阶段性进行对联、扇面、斗方等创作并展览，增加小朋友自信心。
+                   
+                    班级设置
+                      8—10人小班
+                   
+                    招生对象
+                      6周岁以上小朋友、青少年
+                   
+                    课程安排
+                      现场授课：滚动开班，具体时间报名时排课
+                      网络授课：视频互动+微信一对一指导
+                      授课安排：每周一节课。
+
+                </text>
+
+                <text>添加老师微信： </text>
+                <text selectable='true' class='red_text'> wjjy139 </text>
+                <text> ，咨询课程。</text>
+            </view>
+        </view>
+    </view>
+
+    <view>
+        <view class='left_right50 top_bottom15'>
+            <image class='img-x' src='/image/kc.png'></image>
+        </view>
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/rbsf-crsf.jpg'></image>
+            </view>
+            <view>
+                <text>课程内容
+                      从学员的实际水平设立起点（可以零基础开始），侧重快速提升、以书会友、书法文化的领略、经典碑帖讲解和内涵的深层次理解。此外可参加线下游学、集训等活动。
+                 
+                    班级设置
+                      6-8人小班
+                 
+                    招生对象
+                      成人学员
+                 
+                    课程安排
+                      现场授课：滚动开班，具体时间报名时排课
+                      网络授课：视频互动+微信一对一指导
+                      授课安排：每周一节课。
+                      
+                </text>
+
+                <text>添加老师微信： </text>
+                <text selectable='true' class='red_text'> wjjy139 </text>
+                <text> ，咨询课程。</text>
+                <view style='padding-bottom:130rpx;'>
+                    <view class='top_bottom15'>
+                        <image class='img-x' src='http://www.wujiangjy.com/shouji/image/zp.jpg'></image>
+                    </view>
+
+                    <view>
+                        <image class='img-d' src='/image/zuo_pin/mb.jpg'></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,47 @@
+<!--pages/index/mswk/videoinfo/videoinfo.wxml-->
+<!-- <text>pages/index/mswk/videoinfo/videoinfo.wxml</text> -->
+
+<view class="page">
+    <view class=''>
+        <!-- <video id="myVideo" controls objectFit="fill" autoplay="true" bindended="playEnd" src="{{videUrl}}" bindtimeupdate='bindtimeupdate'></video> -->
+        
+        <txv-video vid="{{file_id}}" playerid="txv0" autoplay="true" bindtimeupdate="bindtimeupdate">
+            <!-- // 支持slot，用于在video上显示UI -->
+            <!-- <cover-view class='txv-video-slot'>video slot</cover-view> -->
+        </txv-video>
+    </view>
+
+    <view class='left_right50'>
+        <view class='titlt'>
+            <text>课程介绍</text>
+        </view>
+        <view class='info'>
+            <text space='emsp'>  {{data.classinfo}}</text>
+        </view>
+
+        <view class='titlt'>
+            <text>课程设置</text>
+        </view>
+        <view class='info'>
+            <text space='emsp'>  {{data.classset}}</text>
+        </view>
+
+        <view class='titlt'>
+            <text>授课讲师</text>
+        </view>
+        <view class='info'>
+            <text space='emsp'>  {{data.cteacher}}</text>
+        </view>
+
+        <text class='text_titile'>了解课程详情，请添加老师微信
+            李老师：</text>
+        <text selectable='true' class='red_text'> wjjy139 </text>
+
+        <text class='text_titile'>
+            范老师：</text>
+        <text selectable='true' class='red_text'> wjjy136 
+        
+        </text>
+    </view>
+
+</view>

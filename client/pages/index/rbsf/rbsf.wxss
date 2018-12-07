@@ -1,0 +1,7 @@
+/* pages/index/rbsf/rbsf.wxss */
+
+.red_text{
+    font-size: 1.1rem;
+    color: red;
+    font-weight: bold;
+}

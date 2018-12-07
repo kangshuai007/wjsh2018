@@ -1,0 +1,78 @@
+<!--pages/index/ybsf/ybsf.wxml-->
+<!-- <text>pages/index/ybsf/ybsf.wxml</text> -->
+<view class="page left_right50">
+
+    <view>
+          <view class='top_bottom15'>
+                    <image class='img-d' src='/image/zi_xun/sfds.jpeg'></image>
+         </view>
+        <text>
+        　　书法，是我们中华民族独有的传统艺术，源远流长，非常具有艺术魅力。它是一种集肢体和脑力于一体，将全身体力和思维运用于笔端的一种艺术。
+　　        书法，横如列阵排云，直如倒笋垂露，戈如百钧弩发，点如危峰卵石，牵如万岁枯藤，纵如行云流水
+　　        书法，不仅可以陶冶情操，修身养性，还可以书会友，与人交流！
+
+        </text>
+
+        <text class='text_titile'>活动宗旨</text>
+        <text>
+        　　丰富书友的文化生活及广大学员的业余生活，加强文化交流，提书法水平。
+
+        </text>
+
+        <text class='text_titile'>比赛内容：</text>
+        <text>
+        　　钢笔字、毛笔字
+
+        </text>
+
+        <text class='text_titile'>比赛细则</text>
+        <text>
+        　　a、内容健康向上的诗、文，要求作品具有美观性、完整性、艺术性、健康性，整体协调，无错别字;
+        　　b、作品正、草、隶、篆、行各书体不限，尺寸大小不限;
+        　　c、作品要求参赛者自己完成，反对代笔;
+        　　d、参赛者必须在有限时间内完成。
+
+        </text>
+
+        <text class='text_titile'>参赛对象</text>
+        <text>
+        　　热爱书法的书友
+
+        </text>
+
+        <text class='text_titile'>活动时间</text>
+        <text>
+        　　2019年1月
+
+        </text>
+
+        <text class='text_titile'>比赛形式</text>
+        <text>
+        　　比赛有专业的人员参加评定，大赛遵守公平、公正、公开的原则，反映选手的真实水平。
+
+        </text>
+
+        <text class='text_titile'>奖项设置</text>
+        <text>
+        　　一等奖：6名（每组各3名）
+        　　二等奖：60名（每组各30名）
+        　　三等奖：100名（每组各50名）
+
+        </text>
+        
+        <text class='text_titile'>报名方式：</text>
+        <text>
+        　　参赛作品邮寄到吾匠书院，表明（姓名、联系电话）
+
+        </text>
+        
+        <text class='text_titile'>具体参赛内容，请联系老师或添加老师微信</text>
+        <text>
+        　　李老师：15313753300（微信同号）
+        　　范老师：15311726665（微信同号）
+
+        </text>
+    </view>
+
+
+</view>

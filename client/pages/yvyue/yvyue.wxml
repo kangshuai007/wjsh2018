@@ -1,0 +1,41 @@
+<!--pages/index/yvyue/yvyue.wxml-->
+<view class='container'>
+    <view>
+        <image class='yv-img' src='/image/1w.jpg'></image>
+    </view>
+    <view class='weui-cell weui-cell_input'>
+        <input class="weui-input" auto-focus maxlength="5" placeholder="请输入姓名"></input>
+    </view>
+    <view class='weui-cell weui-cell_input'>
+        <input class="weui-input" maxlength="11" placeholder="请输入联系电话"></input>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">授课形式</view>
+            </view>
+            <view class="weui-cell__bd">
+                <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                    <view class="weui-input">{{array[index]}}</view>
+                </picker>
+            </view>
+        </view>
+    </view>
+
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">预约时间</view>
+            </view>
+            <view class="weui-cell__bd">
+                <picker mode="date" value="{{date}}" start="{{date}}" end="2019-01-01" bindchange="bindDateChange">
+                    <view class="weui-input">{{date}}</view>
+                </picker>
+            </view>
+        </view>
+    </view>
+
+    <view class="button-sp-area left_right50">
+        <button type="default" plain="true">立即预约</button>
+    </view>
+</view>

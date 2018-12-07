@@ -1,0 +1,93 @@
+<!-- 带说明查看样式 -->
+<wux-gallery id="wux-gallery" />
+
+<!-- 图床 -->
+<view class="page">
+    <view>
+        <view class="weui-cells__title">软笔书法</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <view class="weui-uploader">
+                        <view class="weui-uploader__bd">
+                            <view class="weui-uploader__files">
+                                <block wx:for-items="{{ rbsf }}" wx:key="{{ index }}">
+                                    <view class="weui-uploader__file" bindtap="showGallery1" data-current="{{ index }}">
+                                        <image class="weui-uploader__img" src="{{ item }}" />
+                                    </view>
+                                </block>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view>
+        <view class="weui-cells__title">硬笔书法</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <view class="weui-uploader">
+                        <view class="weui-uploader__bd">
+                            <view class="weui-uploader__files">
+                                <block wx:for-items="{{ ybsf }}" wx:key="{{ index }}">
+                                    <view class="weui-uploader__file" bindtap="showGallery2" data-current="{{ index }}">
+                                        <image class="weui-uploader__img" src="{{ item }}" />
+                                    </view>
+                                </block>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view>
+        <view class="weui-cells__title">国画</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <view class="weui-uploader">
+                        <view class="weui-uploader__bd">
+                            <view class="weui-uploader__files">
+                                <block wx:for-items="{{ gh }}" wx:key="{{ index }}">
+                                    <view class="weui-uploader__file" bindtap="showGallery3" data-current="{{ index }}">
+                                        <image class="weui-uploader__img" src="{{ item }}" />
+                                    </view>
+                                </block>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view>
+        <view class="weui-cells__title">美术</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <view class="weui-uploader">
+                        <view class="weui-uploader__bd">
+                            <view class="weui-uploader__files">
+                                <block wx:for-items="{{ ms }}" wx:key="{{ index }}">
+                                    <view class="weui-uploader__file" bindtap="showGallery4" data-current="{{ index }}">
+                                        <image class="weui-uploader__img" src="{{ item }}" />
+                                    </view>
+                                </block>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!--     
+    <view class="page-body-line">
+        <contact-button size="40" session-from="weapp"></contact-button>
+    </view> -->
+</view>

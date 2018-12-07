@@ -1,0 +1,23 @@
+/* pages/auditions/auditions.wxss */
+
+@import "/utils/lib/weui.wxss";
+
+.wux-cell-group__hd{
+    padding:30rpx 30rpx 18rpx;
+    font-size:35rpx;
+    color:#888;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.connect{
+    padding: 0 20rpx;
+}
+
+picker{
+ width: 95vw;
+}
+
+.radio{
+    margin-right:15rpx;
+}

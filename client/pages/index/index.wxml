@@ -1,0 +1,108 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- 轮播 -->
+    <view class="page-section page-section-spacing swiper">
+        <!-- <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{background}}" wx:key="*this">
+                <swiper-item>
+                    <view class="swiper-item">
+                        <image class='sy-img-lb' src='/image/sy/sy-lb.jpg'></image>
+                    </view>
+                </swiper-item>
+            </block>
+        </swiper> -->
+        <view class="swiper-item">
+            <image class='sy-img-lb' src='/image/sy/sy-lb.jpg'></image>
+        </view>
+    </view>
+
+    <!--  -->
+    <wux-grids class="left_right50" bordered="{{ false }}">
+        <navigator url="xckt/xckt" hover-class="navigator-hover">
+            <wux-grid thumb="/image/sy/sy-gn1.jpg" />
+        </navigator>
+
+        <!-- <img-getuserinfo wx:if="{{!authorized}}" open-type="getUserInfo" class="avatar-position"
+                 bind:getuserinfo="onGetUserInfo">
+             <wux-grid thumb="/image/sy/sy-gn2.jpg" />
+        </img-getuserinfo> -->
+
+        <navigator url="mswk/mswk" hover-class="navigator-hover">
+            <!-- <wux-grid thumb="http://pbqg2m54r.bkt.clouddn.com/logo.png" label="名师网课" /> -->
+            <wux-grid thumb="/image/sy/sy-gn2.jpg" />
+        </navigator>
+
+        <navigator url="jrwj/jrwj" hover-class="navigator-hover">
+            <wux-grid thumb="/image/sy/sy-gn3.jpg" />
+        </navigator>
+    </wux-grids>
+
+    <!-- 课堂 -->
+    <view class='bottom15'>
+        <image class='sy-img-x' src='/image/sy/sy-kt.jpg'></image>
+    </view>
+    <wux-grids class="left_right50" col="2">
+        <navigator url="rbsf/rbsf" hover-class="navigator-hover">
+            <wux-gridi thumb="/image/2-1.jpg" />
+        </navigator>
+        <navigator url="ybsf/ybsf" hover-class="navigator-hover">
+            <wux-gridi thumb="/image/2-2.jpg" />
+        </navigator>
+        <navigator url="gh/gh" hover-class="navigator-hover">
+            <wux-gridi thumb="/image/2-3.jpg" />
+        </navigator>
+        <navigator url="ms/ms" hover-class="navigator-hover">
+            <wux-gridi thumb="/image/2-4.jpg" />
+        </navigator>
+    </wux-grids>
+
+    <!-- 网课 -->
+    <view class='left_right50 top_bottom15'>
+        <image class='sy-img-x' src='/image/sy/sy-wk.jpg'></image>
+    </view>
+    <view class='wux-grid__inner left_right50'>
+        <view class='top_bottom15'>
+            <image class='sy-img-d' src='/image/sy/sy-wk2.jpg'></image>
+        </view>
+        <view>
+            <text>名师在线授课，一笔一画讲解细致到位，易学易懂，轻松入门学书法！
+              课程设置系统丰富，由点画到结构；由部首到结字，环环紧扣，循序渐进。
+              学书法随时随地！一对一点评指导！
+            </text>
+        </view>
+    </view>
+
+    <!-- 我们 -->
+    <view class='left_right50 top_bottom15'>
+        <image class='sy-img-x' src='/image/sy/sy-wm.jpg'></image>
+    </view>
+    <view class='wux-grid__inner left_right50'>
+        <view class='top_bottom15'>
+            <image class='sy-img-d' src='/image/sy/sy-wm2.jpg'></image>
+        </view>
+        <view>
+            <text>吾匠，一家现场与网络授课相结合的书画学习平台。 
+                吾匠，拥有多位书画名师组成的教学团队，课程采用提纲挈领法设置，让学员快速抓住学习的关键与要领，掌握其精髓。
+                课程丰富，为每一位学员，提供一份学习计划，一种学习方法！
+
+            </text>
+        </view>
+    </view>
+
+    
+    <view class='wux-grid__inner'>
+        <view class='left_right50'>
+            <text>课程咨询，添加老师微信</text>
+            <text>
+                范老师微信：</text><text selectable='true' class='red_text'>wjjy136 </text>
+
+            <text>
+                李老师微信：</text><text selectable='true' class='red_text'>wjjy139 </text>
+        </view>
+
+        <view class='top_bottom15'>
+            <image class='sy-img-buttom' src='/image/sy/sy-lx.jpeg'></image>
+        </view>
+    </view>
+
+</view>

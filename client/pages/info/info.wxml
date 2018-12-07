@@ -1,0 +1,25 @@
+<view class="page">
+    <view class="page__bd left_right50">
+        <!-- <view class="sub-title">Default</view>
+        <wux-media title="标题一" label="由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。"></wux-media> -->
+        <view>
+            <view class="sub-title">名师授课，书法一对一点评指导</view>
+            <navigator url="mssk/mssk" hover-class="navigator-hover">
+                <wux-media thumb="/image/zi_xun/mssk.jpg" thumb-style="width:650rpx;height:500rpx;"></wux-media>
+                <!-- <image class='img-z' src='/image/mssk1.png'></image> -->
+            </navigator>
+        </view>
+        <view>
+            <view class="sub-title">28天硬笔书法免费打卡学习</view>
+            <navigator url="dkxx/dkxx" hover-class="navigator-hover">
+                <wux-media thumb="/image/zi_xun/daka.png" thumb-style="width:650rpx;height:500rpx;"></wux-media>
+            </navigator>
+        </view>
+        <view>
+            <view class="sub-title">书法大赛</view>
+            <navigator url="sfds/sfds" hover-class="navigator-hover">
+                <wux-media thumb="/image/zi_xun/sfds.jpg" thumb-style="width:650rpx;height:500rpx;"></wux-media>
+            </navigator>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,68 @@
+<view class="page" style='height:100%;'>
+    <wux-tabs wux-class="bordered" auto="{{ false }}" current="{{ key }}" bindchange="onTabsChange">
+        <block wx:for="{{ tabs }}" wx:key="key">
+            <wux-tab key="{{ item.key }}" title="{{ item.title }}"></wux-tab>
+        </block>
+    </wux-tabs>
+    <swiper current="{{ index }}" bindchange="onSwiperChange" style='height:92vh;'>
+        <block wx:for="{{ tabs }}" wx:key="key">
+            <swiper-item>
+                <!-- <view style='height:92vh;overflow-y: scroll;'> -->
+                <scroll-view  scroll-y data-key='{{item.key}}' data-page='{{item.page}}' bindscrolltolower="lower" style='height:92vh;'>
+                    <block wx:for="{{item.content}}" wx:key="index">
+                        <!-- 样式一 -->
+                        <!-- <view class='kp' bindtap='goVideo' data-vid='{{item.src}}'>
+                                    <view class='titlt'>
+                                        <text class='title'>{{ item.title }}</text>
+                                    </view>
+
+                                    <view class='content'>
+                                        <view class='kp-img'>
+                                            <image class='kp-img-t' src='/image/1b.jpg'></image>
+                                        </view>
+                                        <view class='kp-info'>
+                                            <text>姓名：{{ item.name }}
+                                    介绍：{{ item.text }}</text>
+                                        </view>
+                                    </view>
+                                </view> -->
+
+                        <!-- 样式二 -->
+                        <view class='kp' bindtap='goVideo' data-vid='{{item.src}}' data-id='{{item.id}}'>
+                                <!-- 循环输出 -->
+                                <view class='kp-img'>
+                                    <image class='kp-img-t' src='../../../image/mswk/{{item.img_thumb}}'></image>
+                                </view>
+                                <view class='kp-info'>
+                                        <text class='title'>{{ item.title }}</text>
+                                        <!-- <text class='text'>姓名：{{ item.name }}
+                                        介绍：{{ item.text }}</text> -->
+
+
+                                        <!-- <view class='price'>
+                                            <text class='y_price'>￥{{ item.y_price }}</text>
+                                             <option value="4">美术</option> <option value="4">美术</option>
+                                              <option value="4">美术</option> <option value="4">美术</option> <option value="4">美术</option>
+
+
+
+
+
+
+
+
+                                              
+                                            <text class='x_price'> ￥{{ item.x_price }}</text>
+                                        </view> -->
+                                </view>
+
+                        </view>
+                    </block>
+                </scroll-view>
+                <!-- </view> -->
+            </swiper-item>
+        </block>
+    </swiper>
+
+
+</view>

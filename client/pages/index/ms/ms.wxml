@@ -1,0 +1,58 @@
+<!--pages/index/ms.wxml-->
+<!-- <text>pages/index/ms.wxml</text> -->
+<view class="page">
+    <view class='top_bottom15'>
+        <image class='img-t' src='/image/1d.jpg'></image>
+    </view>
+    <view class='left_right50'>
+        <text>对艺术的爱好是每个人与生俱来的兴趣；一份执着的坚持，更多是老师在学习中不断帮你总结的方法！
+        零基础学美术，兴趣培养，艺术气质培养。“私人订制教学计划”，一位学员、一份计划、一种方法!
+
+        </text>
+    </view>
+
+    <view class='wux-grid__inner left_right50'>
+        <view class='left_right50 top_bottom15'>
+            <image class='img-x' src='/image/kc.png'></image>
+        </view>
+
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/ms1.jpg'></image>
+            </view>
+        </view>
+
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/ms2.jpg'></image>
+            </view>
+        </view>
+
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/ms3.jpg'></image>
+            </view>
+        </view>
+
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/ms4.jpg'></image>
+            </view>
+        </view>
+
+        <text>添加老师微信： </text>
+        <text selectable='true' class='red_text'> wjjy139 </text>
+        <text> ，咨询课程。</text>
+        <view style='padding-bottom:130rpx;'>
+            <view class='top_bottom15'>
+                <image class='img-x' src='http://www.wujiangjy.com/shouji/image/zp.jpg'></image>
+            </view>
+
+            <view>
+                <image class='img-d' src='/image/zuo_pin/ms.jpg'></image>
+            </view>
+        </view>
+    </view>
+
+
+</view>

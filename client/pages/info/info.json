@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "吾匠资讯",
+    "usingComponents": {
+        "wux-media": "/utils/media/index"
+    }
+}

@@ -1,0 +1,55 @@
+<!--pages/index/jrwj/jrwj.wxml-->
+<!-- <text>pages/index/jrwj/jrwj.wxml</text> -->
+<view class="page">
+    <view class='wb'>
+        <view>
+            <image class='img1' src='/image/jmwj-1.jpg'></image>
+        </view>
+
+        <view class='left_right50'>
+            <text>吾匠书院是吾匠的现场书法授课品牌，面向全国招募加盟！书法学习班，市场广阔投资小，教学简单，方法精准，育人利己的好生意！吾匠全面的支持让您轻松运营！
+            </text>
+        </view>
+
+        <view>
+            <image class='img2' src='/image/jmwj-2.jpg'></image>
+        </view>
+        <view>
+            <image class='img3' src='/image/jmwj-3.jpg'></image>
+        </view>
+        <view>
+            <image class='img4' src='/image/jmwj-4.jpg'></image>
+        </view>
+        <view>
+            <image class='img5' src='/image/jmwj-5.jpg'></image>
+        </view>
+        <view>
+            <image class='img6' src='/image/jmwj-6.jpg'></image>
+        </view>
+        <view class='left_right50'>
+            <text>课程设置由易到难，由简到繁，逐步深化提高，使学生系统地掌握基础知识、技术、技法和科学有趣的练习方法，一节课就让你爱上书法！
+            </text>
+        </view>
+
+        <view>
+            <image class='img7' src='/image/jmwj-7.jpg'></image>
+        </view>
+        <view>
+            <image class='img8' src='/image/jmwj-8.jpg'></image>
+        </view>
+        <view>
+            <image class='img9' src='/image/jmwj-9.jpg'></image>
+        </view>
+        <view class='left_right50'>
+            <text>您是否还在为自己校区课程单一而发愁？缺乏市场竞争力！
+
+                您是否事业刚起步需要一个投资少回报高的项目？
+
+                您是否想找一个可以干十年以上的项目？
+
+                咨询老师： 15311726665 （微信同号）了解项目！
+            </text>
+        </view>
+
+    </view>
+</view>

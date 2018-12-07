@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "名师网课",
+    "usingComponents": {
+        "txv-video": "plugin://tencentvideo/video"
+    }
+}

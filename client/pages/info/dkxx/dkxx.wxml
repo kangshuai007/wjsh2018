@@ -1,0 +1,30 @@
+<!--pages/index/ybsf/ybsf.wxml-->
+<!-- <text>pages/index/ybsf/ybsf.wxml</text> -->
+<view class="page">
+    <view class='top_bottom15'>
+                    <image class='img-d' src='/image/zi_xun/dk_neirong.png'></image>
+    </view>
+    <view class='left_right50 '>
+        <view>
+            <view>
+                <text>书法不仅兴趣，
+                而是学习、工作的必修课，
+                培养的是认真和坚持，
+                传授的是方法和技能！
+                我们不是要培养书法大师，
+                我们只是让书写规范漂亮，
+                考场不丢分职场不丢人，
+                养成专注严谨的心性！
+                为更好的促进学习，即日起推出28天打卡有礼活动，同时为了活动更好的执行，吾匠马昕迪老师还为本次活动录制了视频供学员学习！
+                </text>
+                
+                <text class='jc'>参加打卡学习，请添加老师微信：</text>
+                    <text class='red_text'>wjjy139 
+
+                    </text>
+            </view>
+        </view>
+    </view>
+
+
+</view>

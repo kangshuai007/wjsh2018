@@ -1,0 +1,67 @@
+/* pages/index/jrwj/jrwj.wxss */
+
+.wb{
+    border: 1px dashed red;
+    border-radius: 30rpx;
+    margin: 0 30rpx;
+}
+
+.img1 {
+    width:650rpx;
+    height:970rpx;
+    padding: 20rpx 20rpx;
+}
+.img2 {
+    width:650rpx;
+    height:600rpx;
+    padding: 20rpx 20rpx;
+}
+.img3 {
+    width:650rpx;
+    height:380rpx;
+    padding: 20rpx 20rpx;
+}
+.img4 {
+    width:650rpx;
+    height:680rpx;
+    padding: 20rpx 20rpx;
+}
+.img5 {
+    width:650rpx;
+    height:560rpx;
+    padding: 20rpx 20rpx;
+}
+.img6 {
+    width:650rpx;
+    height:760rpx;
+    padding: 20rpx 20rpx;
+}
+.img7 {
+    width:650rpx;
+    height:325rpx;
+    padding: 20rpx 20rpx;
+}
+.img8 {
+    width:650rpx;
+    height:410rpx;
+    padding: 20rpx 20rpx;
+}
+.img9 {
+    width:650rpx;
+    height:405rpx;
+    padding: 20rpx 20rpx;
+}
+.bot{
+  
+    width: 690rpx;
+    height: 100rpx;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    left: 30rpx;
+    right: 30rpx;
+    background-color: red;
+    color: #fff;
+}

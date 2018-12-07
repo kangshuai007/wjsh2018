@@ -1,0 +1,56 @@
+<form bindsubmit="formSubmit">
+    <view class="page">
+        <view class='container'>
+            <view class="section">
+
+                <view class="flex-wrp" style="flex-direction:row;">
+                    <view class="flex-item bc_green">项目：</view>
+                    <view class="flex-item bc_red">加盟吾匠书院（单校）</view>
+                </view>
+                <view class="flex-wrp" style="flex-direction:row;">
+                    <view class="flex-item bc_blue">城市：</view>
+                    <view class="flex-item bc_yellow">
+                        <!-- <view class="page__bd">
+                                          <view class="section_gap">
+                                              <radio-group class="radio-group" bindchange="radioChange" name="city">
+                                                  <radio class="radio" wx:for-items="{{items}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}" >
+                                                      <text>{{item.value}}</text>
+                                                  </radio>
+                                              </radio-group>
+                                          </view>
+                                  </view> -->
+                        <radio-group class="radio-group" bindchange="radioChange" name="city">
+                            <radio class="radio" wx:for-items="{{items}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+                                <text>{{item.value}}</text>
+                            </radio>
+                        </radio-group>
+                    </view>
+                </view>
+                <view class="flex-wrp" style="flex-direction:row;">
+                    <view class="flex-item bc_green">姓名：</view>
+                    <view class="flex-item bc_red">
+                        <view class="weui-cell weui-cell_input">
+                            <input class="weui-input" maxlength='5' type='text' placeholder="请填写您的姓名（必填）" name="name" />
+                        </view>
+
+                    </view>
+                </view>
+                <view class="flex-wrp" style="flex-direction:row;">
+                    <view class="flex-item bc_green">电话：</view>
+                    <view class="flex-item bc_red">
+                        <view class="weui-cell weui-cell_input">
+                            <input class="weui-input" maxlength='11' type='number' placeholder="请填写您的电话（必填）" name="tel" />
+                        </view>
+
+                    </view>
+                </view>
+                <view class="button" style="flex-direction:row;">
+                    <view class="flex-item" style="width:650px;height:30px">
+                        <button size="mini" bindtap="submit" plain='true' formType="submit"> 提交 </button>
+                    </view>
+                </view>
+
+            </view>
+        </view>
+    </view>
+</form>

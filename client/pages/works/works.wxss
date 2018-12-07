@@ -1,0 +1,7 @@
+/* pages/works/works.wxss */
+
+@import '/utils/styles/weui.wxss';
+/* @import '/utils/styles/skyvow.wxss'; */
+.ll{
+    color: #04BE02
+}

@@ -1,0 +1,90 @@
+<!--pages/index/ybsf/ybsf.wxml-->
+<!-- <text>pages/index/ybsf/ybsf.wxml</text> -->
+<view class="page">
+    <view class='top_bottom15'>
+        <image class='img-t' src='/image/1b.jpg'></image>
+    </view>
+
+    <view>
+        <view class='left_right50 top_bottom15'>
+            <image class='img-x' src='/image/kc.png'></image>
+        </view>
+        <!-- 少儿 -->
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-x' src='http://www.wujiangjy.com/shouji/image/sr.jpg'></image>
+            </view>
+            <view>
+                <text>资深的教师团队配合独创教材与学习理念，针对少儿心理特点 快乐学习 乐趣由此而生 掌握基本笔画；了解基本理论；具备临帖能力；培育观察能力；掌握多种章法形式的书写。特设趣味教学，为学员积极培养正确的书写习惯与兴趣。
+                </text>
+            </view>
+            
+            <view class='top_bottom15'>
+                <image class='img-z' src='http://www.wujiangjy.com/shouji/image/sr1.jpg'></image>
+            </view>
+            <view>
+                <text>养成正确的握笔姿势，形成习惯。
+                    掌握笔画要领和结构规则，规范、端正、清楚。
+                    具备自我纠错能力，发现问题可以自我调整。
+                    家庭作业书写汉字的正确率和整洁度，明显提升。
+                    独立参加书法考级和比赛。
+
+                    课程安排
+                        现场授课：小班开课
+                        网络授课：视频互动直播
+                        授课安排：每周一节课。
+
+                </text>
+
+                <text>添加老师微信： </text>
+                    <text selectable='true' class='red_text'> wjjy139 </text>
+                    <text> ，咨询课程。
+                </text>
+            </view>
+        </view>
+
+        <!-- 成人 -->
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-x' src='http://www.wujiangjy.com/shouji/image/crb2.jpg'></image>
+            </view>
+            <view>
+                <text>成人课程精心设计 调养心性 学习短时高效 掌握基本笔画结构并运用；临摹字帖；掌握多种章法形式；独立集字创作；了解基本书法理论将书法的写作法则与美相融合。结合个人特点，制定专属课程，让学员在业余的有限时间学习到最纯正的书法技艺。
+                </text>
+            </view>
+            
+            <view class='top_bottom15'>
+                <image class='img-z' src='http://www.wujiangjy.com/shouji/image/crbsf3.jpg'></image>
+            </view>
+            <view>
+                <text>培养正确的握笔姿势； 
+                掌握连笔的规律； 
+                懂得如何写快，快而不乱； 
+                能学以致用的随意抄写各种文字资料； 
+                独立参加书法考级和比赛。
+
+                课程安排
+                    现场授课：小班开课
+                    网络授课：视频互动直播
+                    授课安排：每周一节课。
+                    
+                </text>
+
+                <text>添加老师微信： </text>
+                    <text selectable='true' class='red_text'> wjjy139 </text>
+                    <text> ，咨询课程。</text>
+                <view style='padding-bottom:130rpx;'>
+                    <view class='top_bottom15'>
+                        <image class='img-x' src='http://www.wujiangjy.com/shouji/image/zp.jpg'></image>
+                    </view>
+
+                    <view>
+                        <image class='img-d' src='/image/zuo_pin/yb.jpg'></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    
+</view>

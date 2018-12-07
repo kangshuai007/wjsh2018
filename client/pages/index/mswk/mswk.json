@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "名师网课",
+    "usingComponents": {
+        "wux-tabs": "/utils/tabs/index",
+        "wux-tab": "/utils/tab/index",
+        "wux-badge": "/utils/badge/index"
+    }
+}

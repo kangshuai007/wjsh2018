@@ -1,0 +1,55 @@
+<!--pages/auditions/auditions.wxml-->
+<!-- <text>pages/auditions/auditions.wxml</text> -->
+<view class="page__bd connect">
+    <form bindsubmit="formSubmit">
+        <wux-checkbox-group title="个人信息">
+            <view class='weui-cell weui-cell_input'>
+                <input class="weui-input" auto-focus maxlength="5" placeholder="请输入姓名" name="name"></input>
+            </view>
+            <view class='weui-cell weui-cell_input'>
+                <input class="weui-input" maxlength="11" type='number' placeholder="请输入联系电话" name="tel"></input>
+            </view>
+        </wux-checkbox-group>
+
+        <wux-checkbox-group title="授课方式(请点击下方进行选择)">
+            <!-- <view class="weui-cell__hd">
+                <view class="weui-label">授课形式*</view>
+            </view> -->
+            <view class="weui-cell weui-cell__bd">
+                <picker bindchange="bindPickerChange" range="{{style}}" name="style" value='{{style[index]}}'>
+                    <view class="weui-input">{{style[index]}}</view>
+                </picker>
+            </view>
+        </wux-checkbox-group>
+
+        <wux-checkbox-group title="类别">
+            <radio-group class="weui-cell radio-group" name="type">
+                <radio class="radio" wx:for-items="{{type}}" wx:key="type" value="{{item.name}}">
+                    <text>{{item.value}}</text>
+                </radio>
+            </radio-group>
+        </wux-checkbox-group>
+        <wux-checkbox-group title="课程">
+            <radio-group class="weui-cell radio-group" name="class">
+                <radio class="radio" wx:for-items="{{class}}" wx:key="class" value="{{item.name}}">
+                    <text>{{item.value}}</text>
+                </radio>
+            </radio-group>
+        </wux-checkbox-group>
+        <!-- <wux-checkbox-group  value="{{type}}" title="类别" bind:change="onChange1" name="type">
+            <wux-checkbox color="calm" title="成人" value="成人" />
+            <wux-checkbox color="calm" title="儿童" value="儿童" />
+        </wux-checkbox-group>
+        <wux-checkbox-group  value="{{ kecheng }}" title="课程" bind:change="onChange2" name="kecheng">
+            <wux-checkbox color="calm" title="毛笔书法" value="毛笔书法" />
+            <wux-checkbox color="calm" title="硬笔练字" value="硬笔练字" />
+            <wux-checkbox color="calm" title="国画" value="国画" />
+            <wux-checkbox color="calm" title="美术" value="美术" />
+        </wux-checkbox-group> -->
+
+        <view class="button-sp-area left_right50">
+            <button plain="true" formType='submit'>立即预约</button>
+        </view>
+    </form>
+
+</view>

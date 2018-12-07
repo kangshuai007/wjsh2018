@@ -1,0 +1,80 @@
+<!--pages/index/gh/gh.wxml-->
+<!-- <text>pages/index/gh/gh.wxml</text> -->
+<view class="page">
+    <view class='top_bottom15'>
+        <image class='img-t' src='/image/1c.jpg'></image>
+    </view>
+    <view class='left_right50'>
+        <text>在国画课堂中，帮助学员在山水、花鸟，人物的描绘中习得精湛技艺的升华，更在行云流水般的墨气酣畅中，体悟内心意境的传扬，将对世界的感悟尽藏于笔墨细绘之间。
+        </text>
+    </view>
+
+    <view>
+        <view class='left_right50 top_bottom15'>
+            <image class='img-x' src='/image/kc.png'></image>
+        </view>
+        <!-- 写意花鸟 -->
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/gh-xx1.jpg'></image>
+            </view>
+            <view>
+                <text>用豪放、简练、洒脱的笔墨，描绘自然生命的形神， 抒发感情，具有高度的概括力，落笔需准确，用笔需 熟练，并做到意到笔随，灵活变化。有利于展现绘画 思维与思想跳跃，对于审美不受到禁锢。
+               
+                </text>
+            </view>
+        </view>
+
+        <!-- 工笔花鸟 -->
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/gh-xx2.jpg'></image>
+            </view>
+            <view>
+                <text>工笔画和写意画是对立的，工笔画法工整严谨，所描 绘的物象形态准确传神，用笔工整细致，敷色层层渲 染，用极细致的笔触描绘对象。让人在吵杂中寻得一 份安静，练就耐心与专注力。
+
+                </text>
+            </view>
+        </view>
+
+        <!-- 写意、工笔山水 -->
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/gh-xx3.jpg'></image>
+            </view>
+            <view>
+                <text>用丰富的笔法描绘大自然的河流、山石、树木、屋宇、 桥梁、云雾、瀑布等。纵笔挥洒，墨彩飞扬，较花鸟 与人物画更能体现所描绘景物的气韵生动、磅礴气势 或隐逸山林之感，也更能直接抒发作者思想。
+
+                </text>
+            </view>
+        </view>
+
+        <!-- 人物 -->
+        <view class='wux-grid__inner left_right50'>
+            <view class='top_bottom15'>
+                <image class='img-z' src='/image/gh-xx4.jpg'></image>
+            </view>
+            <view>
+                <text>国画人物分工笔与写意，以国画专用材料工具，以线 条为主进行绘画创作，相对于西画来说更多一层意境 与文化内涵的表现，注重写神。是提高造型能力与记录形态表现的最佳绘画内容。
+                
+                </text>
+            </view>
+        </view>
+
+        <text class='wux-grid__inner left_right50'>添加老师微信： </text>
+        <text selectable='true' class='red_text'> wjjy139 </text>
+        <text> ，咨询课程。</text>
+
+        <view style='padding-bottom:130rpx;'>
+            <view class='top_bottom15'>
+                <image class='img-x' src='http://www.wujiangjy.com/shouji/image/zp.jpg'></image>
+            </view>
+
+            <view>
+                <image class='img-d' src='/image/zuo_pin/gh.jpg'></image>
+            </view>
+        </view>
+    </view>
+
+
+</view>

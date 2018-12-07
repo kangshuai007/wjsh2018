@@ -1,0 +1,26 @@
+/* pages/index/xckt/xckt.wxss */
+.img-d{
+    height: 500rpx;
+    margin-top: 15rpx;
+}
+.img{
+    display:block;
+    width:690rpx;
+    height:1000rpx;
+    margin:0 auto;
+}
+
+.bot{
+  
+    width: 690rpx;
+    height: 100rpx;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    left: 30rpx;
+    right: 30rpx;
+    background-color: red;
+    color: #fff;
+}

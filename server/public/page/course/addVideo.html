@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>文章列表--后台管理模板1.0</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="../../layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="../../css/public.css" media="all" />
+</head>
+
+<body class="childrenBody">
+	<form class="layui-form layui-row layui-col-space10">
+		<div class="layui-col-md9 layui-col-xs12">
+			<div class="layui-row layui-col-space10">
+				<div class="layui-col-md9 layui-col-xs7">
+					<div class="layui-col-md6 layui-col-xs3">
+						<div class="layui-form-item magt3">
+							<label class="layui-form-label">网课标题</label>
+							<div class="layui-input-block">
+								<input type="text" class="layui-input title" lay-verify="title" placeholder="请输入网课标题">
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-md6 layui-col-xs3">
+						<div class="layui-form-item magt3">
+							<label class="layui-form-label">网课类别</label>
+							<div class="layui-input-block">
+								<select name="type" class="type" lay-filter="type" id="type">
+                                <option value="0"></option>
+                                <option value="1">硬笔书法</option>
+                                <option value="2">软笔书法</option>
+                                <option value="3">国画</option>
+                                <option value="4">美术</option>
+								<option value="5">点评指导</option>
+                            </select>
+							</div>
+						</div>
+					</div>
+
+					<div class="layui-form-item">
+						<div class="layui-col-md6 layui-col-xs3">
+							<div class="layui-form-item magt3">
+								<label class="layui-form-label">原价</label>
+								<div class="layui-input-block">
+									<input type="text" class="layui-input y_price" lay-verify="y_price" placeholder="请输入网课原价格">
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-md6 layui-col-xs3">
+							<div class="layui-form-item magt3">
+								<label class="layui-form-label">优惠价</label>
+								<div class="layui-input-block">
+									<input type="text" class="layui-input x_price" lay-verify="x_price" placeholder="请输入网课现价格">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- <div class="layui-form-item magb0">
+
+            <div class="layui-upload">
+                <button type="button" class="layui-btn layui-btn-normal" id="test2">选择缩略图</button>
+                <blockquote class="layui-elem-quote layui-quote-nm" style="margin-top: 10px;">
+                    预览图：
+                    <div class="layui-upload-list" id="demo2"></div>
+                </blockquote>
+                <input type="hidden" value="" name="srcArr" id="srcArr">
+                <input type="hidden" name="count" id="count" value="">
+                <button type="button" class="layui-btn" id="btn1">开始上传</button>
+            </div>
+        </div> -->
+			<div class="layui-form-item magb0">
+
+				<div class="layui-upload">
+					<label class="layui-form-label">视频地址</label>
+					<div class="layui-input-block">
+						<input type="text" class="layui-input pic_url" lay-verify="pic_url" placeholder="请填写腾讯视频完整地址。例如：https://v.qq.com/x/page/u0775eup1vk.html。请勿填写其他链接"
+						 id="pic_url">
+					</div>
+
+					<input type="hidden" value="" name="src" id="src">
+
+				</div>
+			</div>
+			<br>
+			<div class="layui-form-item magb0">
+				<div class="layui-form-item layui-form-text">
+					<label class="layui-form-label">课程介绍</label>
+					<div class="layui-input-block">
+						<textarea name="desc" placeholder="请输入课程介绍" class="layui-textarea classinfo" lay-verify="required"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="layui-form-item magb0">
+				<div class="layui-form-item">
+					<label class="layui-form-label">课程设置</label>
+					<div class="layui-input-block">
+						<input type="text" name="title" required lay-verify="required" placeholder="请输入课程设置" autocomplete="off" class="layui-input classset">
+					</div>
+				</div>
+			</div>
+			<div class="layui-form-item magb0">
+				<div class="layui-form-item layui-form-text">
+					<label class="layui-form-label">授课讲师</label>
+					<div class="layui-input-block">
+						<textarea name="desc" placeholder="请输入讲师资料" class="layui-textarea cteacher" lay-verify="required"></textarea>
+					</div>
+				</div>
+			</div>
+			<!--<div class="layui-form-item magb0">-->
+
+			<!--<div class="layui-upload">-->
+			<!--<button type="button" class="layui-btn layui-btn-normal" id="test2">选择视频文件</button>-->
+			<!--<div class="layui-input-block" style="margin-left: 130px;margin-top: -40px">-->
+			<!--<input type="text" class="layui-input pic_url" lay-verify="pic_url" placeholder="如果无需上传，请填写视频完整地址。例如：http://www.视频地址。如果已上传，请勿填写" id="pic_url">-->
+			<!--</div>-->
+			<!--<blockquote class="layui-elem-quote layui-quote-nm" style="margin-top: 10px;">-->
+			<!--文件展示：-->
+			<!--<div class="layui-upload-list" id="demo2"></div>-->
+			<!--</blockquote>-->
+			<!--<input type="hidden" value="" name="src" id="src">-->
+			<!--&lt;!&ndash;<input type="hidden" name="count" id="count" value="">&ndash;&gt;-->
+			<!--<button type="button" class="layui-btn" id="btn1">开始上传</button>-->
+			<!--</div>-->
+			<!--</div>-->
+		</div>
+		<div class="layui-col-md3 layui-col-xs12">
+			<!--<blockquote class="layui-elem-quote title"><i class="seraph icon-caidan"></i> 分类目录</blockquote>-->
+			<!--<div class="border category">-->
+			<!--<div class="">-->
+			<!--<p><input type="checkbox" name="type" title="硬笔书法" lay-skin="primary" lay-verify="type" value="硬笔书法"/></p>-->
+			<!--<p><input type="checkbox" name="type" title="软笔书法" lay-skin="primary" lay-verify="type"  value="软笔书法"/></p>-->
+			<!--<p><input type="checkbox" name="type" title="国画" lay-skin="primary"  lay-verify="type" value="国画"/></p>-->
+			<!--<p><input type="checkbox" name="type" title="美术" lay-skin="primary" lay-verify="type" value="美术"/></p>-->
+			<!--</div>-->
+			<!--</div>-->
+			<blockquote class="layui-elem-quote title magt10"><i class="layui-icon">&#xe609;</i> 发布</blockquote>
+			<div class="border">
+
+
+
+
+				<div class="layui-form-item newsTop">
+					<label class="layui-form-label"><i class="seraph icon-zhiding"></i> 置　顶</label>
+					<div class="layui-input-block">
+						<input type="checkbox" name="newsTop" lay-skin="switch" lay-text="是|否" lay-filter="sw">
+					</div>
+				</div>
+				<hr class="layui-bg-gray" />
+				<div class="layui-right">
+					<a class="layui-btn layui-btn-sm" lay-filter="addNews" lay-submit><i class="layui-icon">&#xe609;</i>发布</a>
+					<!--<a class="layui-btn layui-btn-primary layui-btn-sm" lay-filter="look" lay-submit>预览</a>-->
+				</div>
+			</div>
+		</div>
+	</form>
+	<script type="text/javascript" src="../../layui/layui.js"></script>
+	<script type="text/javascript" src="addVideo.js"></script>
+</body>
+
+</html>
